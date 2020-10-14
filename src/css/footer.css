@@ -1,0 +1,10 @@
+.footer {
+  background: #F6F6F8;
+}
+.footer__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}

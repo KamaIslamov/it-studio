@@ -1,0 +1,96 @@
+.standarts {
+  background: #F6F6F8;
+
+  &__block1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  &__text {
+    width: 489px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    margin-top: 152px;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-top: 40px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    margin-top: 30px;
+    color: #4985FF;
+  }
+
+  &__image {
+    margin-top: 100px;
+    margin-left: 121px;
+    margin-bottom: 90px;
+
+    img {
+      width: 500px;
+      height: 400px;
+    }
+  }
+
+  &__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 70px;
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: #E0E0E0;
+      position: absolute;
+      margin-top: -40px;
+    }
+  }
+
+  &__card {
+    width: 104px;
+
+    img {
+      margin-top: -12px;
+    }
+
+    .standarts__number {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 53px;
+      color: #000000;
+    }
+
+    .standarts__projects {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      color: #999999;
+
+    }
+  }
+}

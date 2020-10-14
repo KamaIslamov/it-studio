@@ -1,0 +1,11 @@
+.project {
+  background: #F6F6F8;
+}
+.project__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}

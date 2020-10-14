@@ -1,0 +1,46 @@
+.home {
+  background: url("../img/main/mainbg.png") center/cover;
+  padding: 319px 0 335px;
+
+  &__block {
+    display: flex;
+    margin: 0 auto;
+    max-width: 830px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 50px;
+  }
+
+  &__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 36px;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+  }
+}
